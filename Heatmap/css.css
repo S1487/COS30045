@@ -1,0 +1,10 @@
+.area {
+	fill: grey;
+    stroke: blue;
+    stroke-width: 2;
+}
+.halfMilMark {
+    stroke: red;
+    stroke-width: 2;
+	stroke-dasharray: 5, 3;
+}
