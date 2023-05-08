@@ -1,0 +1,45 @@
+.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 10px;
+
+  background: #ffffff;
+  border: 1px solid #dce448;
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+.tooltip2 {
+  position: absolute;
+  text-align: center;
+  padding: 10px;
+
+  background: #ffffff;
+  border: 1px solid #dce448;
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+g.tick line {
+  stroke-width: 0.2;
+}
+
+
+
+/* Add some basic styling to the chart */
+svg {
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+path {
+  fill: none;
+  stroke: rgb(14, 181, 50);
+  stroke-width: 1.5px;
+}
+
+.line {
+  fill: none;
+  stroke: red;
+  stroke-width: 2px;
+}
