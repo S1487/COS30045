@@ -1,0 +1,61 @@
+.area {
+	fill: grey;
+    stroke: blue;
+    stroke-width: 2;
+}
+.halfMilMark {
+    stroke: red;
+    stroke-width: 2;
+	stroke-dasharray: 5, 3;
+}
+.slidecontainer {
+    width: 40%;
+  }
+  
+  /* The slider itself */
+  .slider {
+
+    appearance: none;
+    width: 60%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #ca0d0d; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  }
+  
+  /* Mouse-over effects */
+  .slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+  /*source for slider w3schools */
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #000000; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #000000; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  .tooltip {
+    position: absolute;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: grey;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+.chart {
+    border: 2px solid black;
+}

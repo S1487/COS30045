@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset ="UTF-8"/>
+        <meta name = "description" content = "Data Visualisation"/>
+        <meta name="keywords" content = "HTML, CSS, D3"/>
+        <meta name = "author" content="Joshua Stone"/>
+        <title>Heatmap</title>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+		<link rel="stylesheet" href="css.css">
+		<script src="d3js.js"></script>
+
+	</head>
+	<body>
+		<h1> Insert buttons etc shortly</h1>
+        <div class="slidecontainer">
+            <input type="range" min="2000" max="2020" value="2000" class="slider" id="year_range">
+        </div>
+        <select id="variable">
+            <option value="Value">Migration Total</option>
+            <option value="Temp">Temperature</option>
+            <option value="Mig">Population % migration</option>
+            <option value="Disaster">Disaster Count</option>
+        </select>
+        
+        <p id="chart"></p>
+        <footer>Joshua Stone 7696663</footer>
+</body>
+</html>
